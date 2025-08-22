@@ -1,7 +1,5 @@
 # Topic-Modelling-and-Clustering-for-Low-Resource-Parallel-Corpus
 
-# Parallel Sentence Mining for Low-Resource Languages
-
 This repository contains code and resources for my bachelor thesis on **Topic-Modelling-and-Clustering-for-Low-Resource-Parallel-Corpus** in the **German–Sorbian** language pairs.  
 The project explores multilingual embeddings, clustering, cross-lingual mapping, and label transfer to evaluate representation quality in endangered languages.
 

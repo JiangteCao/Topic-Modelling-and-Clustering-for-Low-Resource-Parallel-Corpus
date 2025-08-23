@@ -1,0 +1,32 @@
+# Core scientific stack
+numpy
+pandas
+scipy
+
+# Machine learning
+scikit-learn
+xgboost
+
+# Embeddings & Transformers
+torch
+transformers
+sentence-transformers
+
+# Topic modeling
+gensim
+
+# NLP preprocessing
+spacy
+nltk
+
+# Clustering & Dimensionality Reduction
+umap-learn
+kneed   # for Elbow/KneeLocator
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Utilities
+tqdm

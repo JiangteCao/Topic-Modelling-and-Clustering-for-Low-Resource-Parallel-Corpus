@@ -17,52 +17,44 @@ The project explores multilingual embeddings, clustering, cross-lingual mapping,
 - The implementation of **CBIE** is adapted from the function `cluster_based` in  [kathyhaem/outliers](https://github.com/kathyhaem/outliers), file `src/post_processing.py`. The original code was reused and modified for this project.
 
 ---
-## project structure
-├─ README.md
-├─ requirements.txt
-│
-├─ data/                        
-│   ├─ train.hsb-de.hsb        
-│   ├─ train.hsb-de.de     
-│   ├─ 40194_train_dsb_de.dsb     
-│   └─ 40194_train_dsb_de.de                  
-│
-├─ notebooks/
-│   └─ LaBSE.ipynb     
-│
-├─ src/
-│   ├─ data/
-│   │   ├─ preprocess.py       
-│   │   └─ keyword_seed.py    
-│   │
-│   ├─ embeddings/
-│   │   ├─ encode_Glot500.py
-│   │   ├─ encode_XLM-R.py
-│   │   ├─ encode_Laser.py
-│   │   └─ encode_labse.py    
-│   │
-│   ├─ clustering/
-│   │   ├─ clustering_analysis.py     
-│   │   ├─ kmeans.py             
-│   │   ├─ tfidf_keywords.py    
-│   │   └─ lda_keywords.py        
-│   │
-│   ├─ mapping/
-│   │   ├─ mapping_report.py 
-│   │   ├─ model_comparison.py            
-│   │   ├─ plot_score.py            
-│   │   ├─ sankey_plot.py            
-│   │   └─ summarize_k.py              
-│   │
-│   ├─ classification/   
-│   │   ├─ classifier_de_side.py      
-│   │   ├─ cv_eval.py           
-│   │   ├─ label_projection_eval.py         
-│   │   ├─ label_vis.py     
-│   │   └─ topic_labeling.py     
-│   │
-│   └─ tsne_umap_cbie/
-│       ├─ CBIE.py           
-│       ├─ crosslingual_consistency.py         
-│       ├─ tsne_vis.py     
-│       └─ umap_vis.py     
+## Project Structure
+
+```
+├── README.md
+├── requirements.txt
+├── data/
+│   ├── train.hsb-de.hsb
+│   ├── train.hsb-de.de
+│   ├── 40194_train_dsb_de.dsb
+│   └── 40194_train_dsb_de.de
+├── notebooks/
+│   └── LaBSE.ipynb
+├── src/
+│   ├── data/
+│   │   ├── preprocess.py
+│   │   └── keyword_seed.py
+│   ├── embeddings/
+│   │   ├── encode_Glot500.py
+│   │   ├── encode_XLM-R.py
+│   │   ├── encode_Laser.py
+│   │   └── encode_labse.py
+│   ├── clustering/
+│   │   ├── clustering_analysis.py
+│   │   ├── kmeans.py
+│   │   ├── tfidf_keywords.py
+│   │   └── lda_keywords.py
+│   ├── mapping/
+│   │   ├── mapping_report.py
+│   │   └── model_comparison.py
+│   ├── classification/
+│   │   ├── classifier_de_side.py
+│   │   ├── cv_eval.py
+│   │   ├── label_projection_eval.py
+│   │   ├── label_vis.py
+│   │   └── topic_labeling.py
+│   ├── tsne_umap_cbie/
+│   │   └── CBIE.py
+│   ├── crosslingual_consistency.py
+│   ├── tsne_vis.py
+│   └── umap_vis.py
+```

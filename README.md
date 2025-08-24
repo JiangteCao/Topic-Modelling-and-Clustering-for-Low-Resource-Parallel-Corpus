@@ -53,8 +53,8 @@ The project explores multilingual embeddings, clustering, cross-lingual mapping,
 │   │   ├── label_vis.py
 │   │   └── topic_labeling.py
 │   ├── tsne_umap_cbie/
-│   │   └── CBIE.py
-│   ├── crosslingual_consistency.py
-│   ├── tsne_vis.py
-│   └── umap_vis.py
+│   │   ├── CBIE.py
+│   │   ├── crosslingual_consistency.py
+│   │   ├── tsne_vis.py
+│   │   └── umap_vis.py
 ```

@@ -13,6 +13,12 @@ The project explores multilingual embeddings, clustering, cross-lingual mapping,
 - **Methods:** LaBSE, Glot500, LASER, XLM-R; K-means clustering; TF-IDF & LDA topic extraction; cross-lingual mapping; CBIE isotropy enhancement; classifier training and label projection..  
 
 ---
+## Installation
+```bash
+git clone https://github.com/yourusername/Topic-Modelling-and-Clustering-for-Low-Resource-Parallel-Corpus.git
+cd Topic-Modelling-and-Clustering-for-Low-Resource-Parallel-Corpus
+pip install -r requirements.txt
+
 ## Code Notes
 - The implementation of **CBIE** is adapted from the function `cluster_based` in  [kathyhaem/outliers](https://github.com/kathyhaem/outliers), file `src/post_processing.py`. The original code was reused and modified for this project.
 
@@ -58,8 +64,4 @@ The project explores multilingual embeddings, clustering, cross-lingual mapping,
 │   │   ├── tsne_vis.py
 │   │   └── umap_vis.py
 ```
-## Installation
-```bash
-git clone https://github.com/yourusername/Topic-Modelling-and-Clustering-for-Low-Resource-Parallel-Corpus.git
-cd Topic-Modelling-and-Clustering-for-Low-Resource-Parallel-Corpus
-pip install -r requirements.txt
+

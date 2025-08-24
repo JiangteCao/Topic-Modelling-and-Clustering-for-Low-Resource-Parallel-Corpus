@@ -58,3 +58,8 @@ The project explores multilingual embeddings, clustering, cross-lingual mapping,
 │   │   ├── tsne_vis.py
 │   │   └── umap_vis.py
 ```
+## Installation
+```bash
+git clone https://github.com/yourusername/Topic-Modelling-and-Clustering-for-Low-Resource-Parallel-Corpus.git
+cd Topic-Modelling-and-Clustering-for-Low-Resource-Parallel-Corpus
+pip install -r requirements.txt

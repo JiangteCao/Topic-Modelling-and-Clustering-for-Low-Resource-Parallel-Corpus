@@ -59,13 +59,16 @@ The project explores multilingual embeddings, clustering, cross-lingual mapping,
 │   │   └── umap_vis.py
 ```
 ## Installation
+
 ```bash
 git clone https://github.com/yourusername/Topic-Modelling-and-Clustering-for-Low-Resource-Parallel-Corpus.git
 cd Topic-Modelling-and-Clustering-for-Low-Resource-Parallel-Corpus
 pip install -r requirements.txt
-
+```
 
 ## Usage
 ### Generate embeddings
 ```bash
 python src/embeddings/encode_labse.py --input data/train.hsb-de.hsb --output embeddings/hsb_labse.npy
+```
+
